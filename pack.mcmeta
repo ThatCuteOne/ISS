@@ -2,7 +2,8 @@
     "pack":
     {
         "pack_format":57,
-        "description":"idk",
-        "supported_formats": [40,200]
+        "description":"ISS 1.3.2",
+        "supported_formats": [40,200],
+        "authors":"ThatCuteOne"
     }
 }
