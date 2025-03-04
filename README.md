@@ -1,9 +1,9 @@
 ThatCuteOnes's Inventory saving system or for short ISS, allows for easy inventory loading and saving.
 
-### How to use [1.3.0+]
+### How to use
 
-<details>
-<summary>Inventory Types</summary>
+
+## Inventory Types
 
 ### Global Inventories
 Global inventories serve as a backup for **personal inventories**, operating independently from individual player data.
@@ -11,12 +11,10 @@ Global inventories serve as a backup for **personal inventories**, operating ind
 ### Personal Inventories
 Personal inventories are linked to individual players. They were originally designed for those who wanted to customize their kits differently from the default options, but they can be used for any purpose. If a player attempts to load a personal inventory that hasn't been saved yet, the corresponding **global inventory** will be loaded instead.
 
-</details>
-
 ---
 
-<details>
-<summary>Saving and Loading Inventories</summary>
+
+## Saving and Loading Inventories
 
 ## Inventory Ids
 To save or load an inventory, you must always provide the inventory's ID. Note that certain characters are **not allowed** in the inventory ID, including:
@@ -74,15 +72,3 @@ Loading commands replace the player's entire inventory.
    ```
    /function iss:functions/reset_custom_layout {id:"starter_kit"}
    ```
-
-   
-
-
-
-
-
-
-</details>
-
-
-
