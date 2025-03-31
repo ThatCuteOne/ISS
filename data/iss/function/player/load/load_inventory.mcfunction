@@ -1,22 +1,26 @@
 scoreboard players set is_loading temp 1
 
 # Load Armor from equipment field // Used by layouts saved after minecraft version 1.21.5
+item replace entity @e[tag=iss.player_save,limit=1] armor.head with air
 data modify entity @e[tag=iss.player_save,limit=1] equipment.head set from storage data.inventory temp[].equipment.head
 item replace entity @s \
             armor.head from entity @e[tag=iss.player_save,limit=1] armor.head
+item replace entity @e[tag=iss.player_save,limit=1] armor.head with air
 data modify entity @e[tag=iss.player_save,limit=1] equipment.head set from storage data.inventory temp[].equipment.chest
 item replace entity @s \
             armor.chest from entity @e[tag=iss.player_save,limit=1] armor.head
+item replace entity @e[tag=iss.player_save,limit=1] armor.head with air
 data modify entity @e[tag=iss.player_save,limit=1] equipment.head set from storage data.inventory temp[].equipment.legs
 item replace entity @s \
             armor.legs from entity @e[tag=iss.player_save,limit=1] armor.head
+item replace entity @e[tag=iss.player_save,limit=1] armor.head with air
 data modify entity @e[tag=iss.player_save,limit=1] equipment.head set from storage data.inventory temp[].equipment.feet
 item replace entity @s \
             armor.feet from entity @e[tag=iss.player_save,limit=1] armor.head
+item replace entity @e[tag=iss.player_save,limit=1] armor.head with air
 data modify entity @e[tag=iss.player_save,limit=1] equipment.head set from storage data.inventory temp[].equipment.offhand
 item replace entity @s \
             weapon.offhand from entity @e[tag=iss.player_save,limit=1] armor.head
-
 data modify entity @e[tag=iss.player_save,limit=1] \
         equipment.head set from storage \
             data.inventory temp[0]
