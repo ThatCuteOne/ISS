@@ -1,0 +1,1 @@
+$data remove storage iss data.$(id).$(player_id)
