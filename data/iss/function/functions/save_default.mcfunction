@@ -1,1 +1,0 @@
-$function iss:player/save/save_inventory {id:"$(id)",player_id:-1}

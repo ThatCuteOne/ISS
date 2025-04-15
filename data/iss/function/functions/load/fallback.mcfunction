@@ -1,0 +1,1 @@
+$function iss:internal/load/fallback with storage iss data.$(id)

@@ -1,10 +1,7 @@
-scoreboard objectives add temp dummy
-scoreboard objectives add iss.player_id dummy
+scoreboard objectives add iss.player.id dummy
+scoreboard objectives add iss.vars dummy
 
-# Settings
+forceload add 0 0
 
-scoreboard objectives add iss.settings dummy
-
-# toggles the actionbar message when running a function
-# default: 0(false)
-scoreboard players set actionbar_data iss.settings 0
+# example for defining a fallback function
+#data modify storage iss data.2.fallback set value "iss:functions/test"
