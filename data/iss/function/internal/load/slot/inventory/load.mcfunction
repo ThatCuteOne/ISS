@@ -1,1 +1,0 @@
-$item replace entity @s inventory.$(slot) from entity @n[tag=iss.load] armor.head
