@@ -2,7 +2,7 @@
     "pack":
     {
         "pack_format":71,
-        "description":"ISS 1.3.2",
+        "description":"ISS 2.0.0",
         "supported_formats": [71,200],
         "authors":"ThatCuteOne"
     }
