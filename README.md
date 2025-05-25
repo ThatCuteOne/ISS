@@ -1,18 +1,18 @@
 
 ## How to use
-**Valid IDs**
+### Valid IDs
 The ID can generally be any character although using special characters is not recommended as this can lead to unpredictable behavior
 
-**Loading a Layout**
+### Loading a Layout
 This can be done by running `iss:functions/load/ {id:<your id>}`
 If the player doesn't have a saved Layout tied to the ID it will try to run the defined fallback function(see "**Defining a fallback function**") if there is no fallback function defined for that ID it will fail
 
 You can also load the defined fallback function directly by running `iss:functions/load/fallback {id:<your id>}`
 
-**Saving**
+### Saving
 You can save a Layout by running `iss:functions/save {id:<your id>}`, this will save the Inventory of the player who is executing it to the specified id
 
-**Deleting Layouts**
+### Deleting Layouts
 To delete a Layout of a spesific player run `iss:functions/delete/ {id:<your id>}` as the player
 To delete _All_ Layouts associated with a certain id run `iss:functions/delete/all {id:<your id>}`
 
