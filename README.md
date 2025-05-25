@@ -5,7 +5,7 @@ The ID can generally be any character although using special characters is not r
 
 ### Loading a Layout
 This can be done by running `iss:functions/load/ {id:<your id>}`
-If the player doesn't have a saved Layout tied to the ID it will try to run the defined fallback function(see "**Defining a fallback function**") if there is no fallback function defined for that ID it will fail
+If the player doesn't have a saved Layout tied to the ID it will try to run the defined fallback function(see "[**Defining a fallback function**](https://github.com/ThatCuteOne/ISS?tab=readme-ov-file#defining-a-fallback-function)") if there is no fallback function defined for that ID it will fail
 
 You can also load the defined fallback function directly by running `iss:functions/load/fallback {id:<your id>}`
 
