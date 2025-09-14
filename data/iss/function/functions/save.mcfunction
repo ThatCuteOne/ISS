@@ -1,3 +1,4 @@
 execute store result storage iss macro.player_id int 1 run scoreboard players get @s iss.player.id
 $data modify storage iss macro.id set value $(id)
+$data modify storage iss macro.version set value $(version)
 function iss:internal/save/ with storage iss macro
