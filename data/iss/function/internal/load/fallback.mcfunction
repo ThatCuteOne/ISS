@@ -1,1 +1,1 @@
-$function $(fallback)
+$function $(function)
