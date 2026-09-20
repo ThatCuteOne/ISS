@@ -6,6 +6,5 @@
     },
     "rewards": {
       "function": "iss:internal/on_first_join"
-    },
-    "sends_telemetry_event": false
+    }
 }
